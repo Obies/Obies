@@ -1,4 +1,4 @@
-### Lechaba Business Solutions Pty Ltd
+### Beta
 
 <!--
 **Obies/Obies** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
