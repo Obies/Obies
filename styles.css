@@ -19,8 +19,9 @@ header {
 
 .nav-links{
     margin-left: auto;
-    font-size: 22px;
-    padding: 10px;
+    font-size: 20px;
+    padding: 14px;
+    padding-right: -25px;
 }
 
 nav a{
@@ -50,16 +51,32 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.section {
+.section1{
     padding: 100px 0;
     text-align: center;
     color: white;
 }
 
-.description-box {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
+.about-us, .project, .team, .contact {
+    width: 90%;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #628296;
+    height: 300px;
+    display: flex;
+}
+
+.section{
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+footer{
+    padding: 10px;
+    height: 130px;
+    background-color: #2F4F4F;
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
 }
