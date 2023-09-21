@@ -8,7 +8,7 @@ header {
 
 .comp-logo{
     padding: 15px;
-    padding-left: 20px;
+    padding-left: 25px;
     display: flex;
 }
 
@@ -40,14 +40,14 @@ nav{
 }
 
 header img{
+    padding-left: 2px;
     border-radius: 60px;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background: url("Lechaba Logo.png") no-repeat center center fixed;
-    background-size: cover;
+    /*background: url("Lechaba Logo.png") no-repeat center center fixed;*/
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -55,6 +55,34 @@ body {
     padding: 100px 0;
     text-align: center;
     color: white;
+}
+
+.first{
+    background: url("images/sean-pollock-PhYq704ffdA-unsplash\(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second{
+    background: url("images/desola-lanre-ologun-IgUR1iX0mqM-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third{
+    background: url("images/kelly-sikkema-uIu2_j7QAsU-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fourth{
+    background: url("images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .about-us, .project, .team, .contact {
@@ -65,6 +93,43 @@ body {
     height: 300px;
     display: flex;
 }
+
+.about-us p{
+    padding-left: 35px;
+}
+
+.about-us img{
+    margin-top: 120px;
+    padding-left: 380px;
+}
+
+.project p{
+    padding-left: 35px;
+}
+
+.project img{
+    margin-top: 120px;
+    padding-left: 380px;
+}
+
+.team p{
+    padding-left: 35px;
+}
+
+.team img{
+    margin-top: 120px;
+    padding-left: 380px;
+}
+
+.contact p{
+    padding-left: 35px;
+}
+
+.contact img{
+    margin-top: 120px;
+    padding-left: 380px;
+}
+
 
 .section{
     padding: 100px 0;
