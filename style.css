@@ -45,10 +45,13 @@ body {
 .section1{
     width: auto;
     height: 700px;
-    background: url('images/alexander-andrews-fsH1KjbdjE8-unsplash.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 .section1-heading, .section2-heading, .section3-heading, .section4-heading, p{
@@ -66,7 +69,7 @@ body {
 }
 
 .section2{
-    height: 900px;
+    height: 1500px;
     width: 100%;
     background: url('images/andy-holmes-LUpDjlJv4_c-unsplash.jpg');
     background-position: center;
@@ -91,7 +94,7 @@ body {
 }
 
 .section3{
-    height: 900px;
+    height: 2500px;
     width: 100%;
     background: url('images/graham-holtshausen-fUnfEz3VLv4-unsplash.jpg');
     background-position: center;
@@ -114,8 +117,12 @@ body {
 }
 
 .team-body{
-    width: 95%;
+    width: 80%;
     margin: auto;
+}
+
+.team-body img{
+    height: 500px;
 }
 
 .form-container{
