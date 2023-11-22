@@ -1,5 +1,7 @@
+/* The Body */
 body,html {
-    height: 100%;
+    width: auto;
+    height: auto;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
@@ -36,6 +38,10 @@ header{
     z-index: 1;
 }
 
+.page-container img{
+    width: 50%;
+}
+
 .cont-div {
     border: 1px solid blue;
     padding: 20px;
@@ -48,8 +54,6 @@ header{
     z-index: -1;
     overflow: hidden;
   }
-
- 
 
 .logo-container, img, p{
     border-radius: 60px 60px;
@@ -100,8 +104,54 @@ header{
     text-align: center;
 }
 
+.about-info{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 250px;
+    display: flex;  /* Use flexbox to make the children flex items */
+    justify-content: space-between;  /* Spread the children horizontally */
+    align-items: center;
+}
+
+.about-details {
+    flex: 1;  /* Take up available space */
+    margin-right: 20px;  /* Adjust the right margin for spacing */
+}
+
+.about-image {
+    flex: 1;  /* Take up available space */
+}
+
+#top-headings{
+    margin-top: 50px;
+    margin-left: 480px;
+}
+
+#top-headings h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .form-container{
     background-color: white;
+}
+
+.section1{
+    height: 700px;
+}
+
+.section2{
+    height: 700px;
+}
+
+.about-info{
+    height: 80px;
+    background-image: none;
+}
+
+.projects-info{
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 90%;
 }
 
 footer{
