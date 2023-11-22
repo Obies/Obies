@@ -24,6 +24,19 @@ hr{
     margin-top: 90px;
 }
 
+.contact-description{
+    margin-top: 30px;
+}
+
+.contact-description p{
+    font-size: 18px;
+}
+
+#contact-head h1{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
 .top-divs{
     display: flex;
     justify-content: space-around;
@@ -106,6 +119,11 @@ header{
     height: 500px;
 }
 
+.contact-heading h1{
+    margin-top: 50px;
+    margin-left: 460px;
+}
+
 .back-video {
     z-index: -1;
     right: 0;
@@ -185,9 +203,29 @@ header{
     flex: 1;
 }
 
-.card img{
-    
+.card img{ 
     border-radius: 0%;
+}
+
+.contact-map{
+    margin-top: 60px;
+}
+
+.form-container{
+    margin: auto;
+    padding: 30px;
+}
+
+.contact-details{
+    margin-left: -80px;
+    background-color: green;
+}
+
+.contact-form{
+    background-color: #222629;
+    border-radius: 30px;
+    width: 100%;
+    margin: auto;
 }
 
 .card-img-top {
