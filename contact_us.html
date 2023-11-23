@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -11,7 +11,6 @@
     <style>
         body{
             width: 100%;
-            margin-bottom: -90px;
         }
 
         .contact-form {
@@ -20,12 +19,11 @@
         }
 
         form {
-            margin-right: 20px;
-            width: 80%;
+            width: 90%;
         }
 
         .contact-details {
-            width: 30%;
+            width: 35%;
         }
 
         input[type=text], input[type=email], textarea {
@@ -33,6 +31,10 @@
             padding: 12px;
             margin: 4px 0;
             box-sizing: border-box;
+        }
+
+        .wider-textarea{
+            width: 80%;
         }
 
     </style>
@@ -87,28 +89,32 @@
                       <input type="phone" class="form-control" id="inputAddress" placeholder="+27 67 233 0987" required>
                     </div>
                     <div class="col-12">
-                      <label for="inputAddress2" class="form-label">Email Address:</label>
+                      <label for="inputAddress2" class="form-label">Email Address (Optional):</label>
                       <input type="email" class="form-control" id="inputAddress2" placeholder="johndoe123@gmail.com" optional>
                     </div>
-                    <div class="col-md-6">
-                      <label for="inputCity" class="form-label">Message:</label>
-                      <textarea name="Message" placeholder="Write your message here... " class="form-control" rows="5" cols="500" id="inputCity" required></textarea>
-                    </div>
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Send Message</button>
+                    <div class="button-container">
+                        <div class="col-md-6">
+                         <label for="inputCity" class="form-label">Message:</label>
+                            <textarea name="Message" placeholder="Write your message here... " class="form-control wider-textarea" rows="5" cols="60" id="message" required></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
                     </div>
                   </form>
                 </div>
                   <div class="contact-details">
                     <h3>Our Contact Details</h3>
-                    <p>1234 Main St, Anytown, Anystate, 12345</p>
-                    <p>Email: info@yourwebsite.com</p>
-                    <p>Phone: +1 (234) 567-890</p>
+                    <p> Address: <br><br> 1234 Main St, Anytown, Anystate, 12345</p>
+                    <p>Email: <br>info@lechebasolutions.com</p>
+                    <p>Phone: +27 (81) 567-8190</p>
                   </div>
             </div>
 
             <div class="contact-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14259.141749133822!2d27.124734135753155!3d-26.687343856559096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9681f0319c36af%3A0xe2e7e742cd924361!2sMercor%20Transport!5e0!3m2!1sen!2sza!4v1696062703717!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h2> Locate us on Google Maps</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14259.141749133822!2d27.124734135753155!3d-26.687343856559096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9681f0319c36af%3A0xe2e7e742cd924361!2sMercor%20Transport!5e0!3m2!1sen!2sza!4v1696062703717!5m2!1sen!2sza" width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>
